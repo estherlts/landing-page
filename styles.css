@@ -4,14 +4,14 @@
 
 .header {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: flex-start;
 }
@@ -39,11 +39,31 @@ ul {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
     padding: 10px;
 }
 
-img {
+.main-img {
     width: 400px;
     height: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.footer {
+    background-color: #1F2937;
 }
