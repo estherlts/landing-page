@@ -82,16 +82,53 @@ img {
     max-width: 200px;
 }
 
+.info-img {
+    border: solid #3882F6;
+    border-radius: 8%;
+}
+
 .section-four {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.modal {
+    background-color: #3882F6;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin-bottom: 8px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
+}
+
+button.cta-two {
+    border: 1px solid #F9FAF8;
 }
 
 .footer {
