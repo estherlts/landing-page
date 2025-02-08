@@ -58,14 +58,40 @@ img {
     height: 100px;
 }
 
-.section-two {
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
+.section-two {
+    text-align: center;
+}
+
 .info {
     max-width: 200px;
+}
+
+.section-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
 }
 
 .footer {
