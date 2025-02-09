@@ -67,8 +67,18 @@ img {
 
 .hero-text {
     display: flex;
+    width: 400px;
     flex-direction: column;
     justify-content: center;
+}
+
+.hero-heading {
+    margin-bottom: 0;
+}
+
+.hero-subtext {
+    color: #F9FAF8;
+    margin-top: 0;
 }
 
 .container {
@@ -156,10 +166,19 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
+    font-weight: bold;
+}
+
+button.cta-one {
+    border: none;
+    width: 80px;
+    padding: 5px;
 }
 
 button.cta-two {
     border: 1px solid #F9FAF8;
+    width: 80px;
+    padding: 5px;
 }
 
 .footer {
