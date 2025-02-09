@@ -118,15 +118,19 @@ blockquote {
     width: 600px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 30px;
-    gap: 10px;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
 
 .headline {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     color: #F9FAF8;
     margin-bottom: 8px;
@@ -143,6 +147,7 @@ blockquote {
 
 .modal-text {
     color: #F9FAF8;
+    font-size: 12px;
 }
 
 button {
@@ -161,4 +166,6 @@ button.cta-two {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
+    padding: 15px;
 }
